@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>BEM AND SCSS PRACTICE</title>
+</head>
+<body>
+    <!-- header section starts here -->
+    <header class="header">
+        <div class="header__image">
+            <img class="header__logo" src="/image/background.jpeg" alt="">
+        </div>
+
+        <div class="header__navigation">
+            <a href="#about">about us</a>
+            <a href="#contact">contact</a>
+        </div>
+
+    </header>
+    <!-- header section ends here -->
+
+    <!-- card section starts here -->
+
+    <main class="card">
+        <div class="card__contents">
+            <h3 class="card__contents--title">About us</h3>
+            <img class="card__contents--image" src="/image/background 2.jpeg" alt="">
+
+            <div class="card__contents-items">
+                <p class="card__contents--text">experience the art of exceptional cuisines with our tailored catering services ..</p>
+                <button class="card__contents--button">get yours now</button>
+            </div>
+        </div>
+
+        <div class="card__contents">
+            <h3 class="card__contents--title"> Contact </h3>
+            <iframe class="card__contents--iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.98599597371!2d8.86678857416249!3d9.935122774149455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105373a3463228a9%3A0xe71a43aadebd65b0!2sBaptist%20Church%20Alheri!5e0!3m2!1sen!2sng!4v1722774343098!5m2!1sen!2sng"allowfullscreen="" loading="lazy"></iframe>
+
+            <div class="card__contents--items">
+                <div class="card__cotents--inputbox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="card__contents--inputbox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="card__contents-inputbox">
+                    <span class="fas fa-phone"></span>
+                    <input class="card__contents--inputbox" type="text" placeholder="phone number">
+                </div>
+            </div>
+            <button class="card__contents--button">Submit</button>
+        </div>
+
+    </main>
+    <!-- cards section ends here -->
+
+    <!-- footer section starts here -->
+    <section class="footer">
+        <div class="footer__share">
+          <a href="#" class="fab fa-facebook-f" class="footer__item"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-tiktok"></a>
+        </div>
+        <div class="credit">created by <span>dev_jaytee</span> <span>all rights reserved</span></div>
+    </section>
+    
+</body>
+</html>
